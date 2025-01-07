@@ -95,6 +95,8 @@ $phpVersion = phpversion();
     <div class="message">Webserver correctly installed and running! Useing NutroCloud Free Server | 7T™</div>
     <div class="footer">
         <p>Shop <a href="https://shop.nutro.cloud" target="_blank">Go To Setup domain</a></p>
+        <p><a href="https://services.7tteam.com" target="_blank">You Can Create Your Website Now From 7T Services</a></p>
+
     </div>
 </div>
 
