@@ -8,7 +8,7 @@ RESET="\033[0m"
 
 # Function to print messages with colors
 log_success() {
-    echo -e "${GREEN}[SUCCESS] $1${RESET}"
+    echo -e "${GREEN}[Lets Gooo Online 💚🚀] $1${RESET}"
 }
 
 log_warning() {
@@ -40,7 +40,15 @@ fi
 # NGINX if else WIP
 echo "⏳ Starting Nginx..."
 # Final message
-log_success "Web server is running. All services started successfully."
+clear
+log_success " 
+_____   __      _____             ______________            _________
+___  | / /___  ___  /_______________  ____/__  /_________  _______  /
+__   |/ /_  / / /  __/_  ___/  __ \  /    __  /_  __ \  / / /  __  / 
+_  /|  / / /_/ // /_ _  /   / /_/ / /___  _  / / /_/ / /_/ // /_/ /  
+/_/ |_/  \__,_/ \__/ /_/    \____/\____/  /_/  \____/\__,_/ \__,_/   
+                                                                     webfree v2.1 | 7T team©
+"
 /usr/sbin/nginx -c /home/container/nginx/nginx.conf -p /home/container/
 
 # Keep the container running (optional, depending on your container setup)
