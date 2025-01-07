@@ -8,7 +8,7 @@ $phpVersion = phpversion();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP Version Info</title>
+    <title>PHP Version Info - NutroCloud</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -92,9 +92,9 @@ $phpVersion = phpversion();
     <h1>Webserver Correctly Installed</h1>
     <p>Your current PHP version is:</p>
     <div class="php-version"><?php echo $phpVersion; ?></div>
-    <div class="message">Webserver correctly installed and running!</div>
+    <div class="message">Webserver correctly installed and running! Useing NutroCloud Free Server | 7T™</div>
     <div class="footer">
-        <p>Powered by <a href="https://sigmaprods.dev" target="_blank">sigmaprods.dev</a></p>
+        <p>Shop <a href="https://shop.nutro.cloud" target="_blank">Go To Setup domain</a></p>
     </div>
 </div>
 
